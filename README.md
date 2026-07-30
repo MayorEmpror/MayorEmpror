@@ -1,15 +1,15 @@
-# MayorEmpror
 # Hi, I'm Hashir Ali 👋
 
 <img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" />
 
-## 🚀 Full-Stack Developer | AI Enthusiast | Problem Solver
+## 🚀 Full-Stack Developer | AI Enthusiast | Builder
 
 I'm a **Computer Science student at FAST NUCES** passionate about building scalable web applications, intelligent systems, and products that solve real-world problems.
 
-I enjoy working across the entire stack — from designing beautiful interfaces to building robust backend systems, databases, and AI-powered solutions.
+I enjoy working across the complete software stack — from crafting modern user interfaces to designing backend architectures, databases, APIs, and AI-powered solutions.
 
 Currently exploring:
+
 - 🤖 AI Engineering & Agentic Systems
 - 🚀 SaaS Product Development
 - 🌐 Distributed Systems
@@ -17,25 +17,24 @@ Currently exploring:
 
 ---
 
-## 💻 Tech Stack
+# 💻 Tech Stack
 
-### Frontend
-<p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,html,css" />
-</p>
+## Frontend
 
-### Backend & Database
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,python,fastapi,postgres,mongodb,firebase" />
-</p>
+<img src="https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,html,css&perline=6" />
 
-### Tools & Technologies
-<p>
-  <img src="https://skillicons.dev/icons?i=git,docker,linux,figma,vscode" />
-</p>
+## Backend & Database
 
-### Other Interests
+<img src="https://skillicons.dev/icons?i=nodejs,express,python,fastapi,postgres,mongodb,firebase&perline=7" />
+
+## Tools & Technologies
+
+<img src="https://skillicons.dev/icons?i=git,docker,linux,figma,vscode&perline=5" />
+
+## Other Technologies & Interests
+
 - React Three Fiber & Three.js
+- WebGL & GLSL Shaders
 - Machine Learning
 - Computer Networks
 - Algorithms & Data Structures
@@ -43,77 +42,89 @@ Currently exploring:
 
 ---
 
-## 🚀 Featured Projects
+# 🚀 Featured Projects
 
-### 🚗 Carz — Full Stack Car Marketplace Platform
-A complete car rental and dealership platform with:
-- Car buying & renting
-- Owner dashboards
-- Customer profiles
-- Performance analytics
-- Real-time communication
-- 3D vehicle visualization
+## 🚗 Carz — Full Stack Car Marketplace Platform
 
-**Stack:** Next.js, TypeScript, PostgreSQL, Node.js, React Three Fiber
+A complete car rental and dealership platform designed to connect customers, drivers, and vehicle owners.
+
+Features include:
+
+- 🚘 Car buying & renting
+- 📊 Owner analytics dashboards
+- 👤 Customer & driver profiles
+- 💬 Real-time communication
+- 📍 Location tracking
+- 🎨 3D vehicle visualization
+
+**Stack:**
+
+`Next.js` `TypeScript` `Node.js` `PostgreSQL` `React Three Fiber`
 
 ---
 
-### 🤖 WordsWorth AI Assistant
-An AI-powered chat experience focused on intelligent conversations and automation.
+## 🤖 WordsWorth AI Assistant
 
-**Stack:** React, Next.js, AI APIs
+An AI-powered conversational assistant focused on intelligent interactions and automation.
+
+**Stack:**
+
+`React` `Next.js` `AI APIs`
 
 ---
 
-### 🎨 3D Web Experiences
-Building interactive websites and product experiences using:
+## 🎨 Interactive 3D Web Experiences
+
+Building immersive web experiences using modern graphics technologies.
+
+Exploring:
+
 - Three.js
 - React Three Fiber
-- GLSL shaders
 - WebGL
+- GLSL Shaders
+- Real-time rendering
 
 ---
 
-## 📚 Currently Learning
+# 📚 Currently Learning
 
 - Building AI agents and AI-native applications
 - Advanced backend architecture
 - Cloud infrastructure
 - Distributed systems
 - Machine learning engineering
+- Product development
 
 ---
 
-## 🏆 Goals
+# 🏆 Goals
 
-My goal is to build products used by people worldwide, collaborate with international teams, and create SaaS solutions that combine great design with powerful technology.
+My goal is to build impactful software products used globally, collaborate with talented international teams, and create SaaS solutions that combine excellent design with powerful technology.
 
 ---
 
-## 📫 Connect With Me
+# 📫 Connect With Me
 
 <p>
-<a href="https://linkedin.com/in/YOUR_USERNAME">
+<a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME">
 <img src="https://skillicons.dev/icons?i=linkedin" />
 </a>
 
-<a href="https://github.com/YOUR_USERNAME">
+<a href="https://github.com/MayorEmpror">
 <img src="https://skillicons.dev/icons?i=github" />
 </a>
 </p>
 
 ---
 
-## 📊 GitHub Stats
+# ⚡ Fun Facts
 
-<p>
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" />
-</p>
-
-<p>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight" />
-</p>
+- 💡 I enjoy turning ideas into working products
+- 🌎 Interested in startups and global software development
+- 🧠 Always learning new technologies
+- 🛠️ Prefer building real projects over just tutorials
 
 ---
 
-⭐️ From [Hashir Ali](https://github.com/YOUR_USERNAME)
+⭐️ From [Hashir Ali](https://github.com/MayorEmpror)
