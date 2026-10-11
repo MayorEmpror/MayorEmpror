@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/MayorEmpror/MayorEmpror/main/assets/banner.svg" alt="Hashir Ali — Full-Stack Developer & Software Engineer" width="100%" />
+<img src="assets/banner.svg" alt="Hashir Ali — Full-Stack Developer & Software Engineer" width="100%" />
 
 # Hashir Ali
 
@@ -50,13 +50,13 @@ My standard is simple: understand the problem properly, build the thing that sol
 
 <div align="center">
 
-![Profile Details](https://raw.githubusercontent.com/MayorEmpror/MayorEmpror/main/profile-summary-card-output/github_dark/0-profile-details.svg)
+![Profile Details](profile-summary-card-output/github_dark/0-profile-details.svg)
 
-![Repos Per Language](https://raw.githubusercontent.com/MayorEmpror/MayorEmpror/main/profile-summary-card-output/github_dark/1-repos-per-language.svg)
-![Top Languages By Commit](https://raw.githubusercontent.com/MayorEmpror/MayorEmpror/main/profile-summary-card-output/github_dark/2-most-commit-language.svg)
+![Repos Per Language](profile-summary-card-output/github_dark/1-repos-per-language.svg)
+![Top Languages By Commit](profile-summary-card-output/github_dark/2-most-commit-language.svg)
 
-![Stats](https://raw.githubusercontent.com/MayorEmpror/MayorEmpror/main/profile-summary-card-output/github_dark/3-stats.svg)
-![Productive Time](https://raw.githubusercontent.com/MayorEmpror/MayorEmpror/main/profile-summary-card-output/github_dark/4-productive-time.svg)
+![Stats](profile-summary-card-output/github_dark/3-stats.svg)
+![Productive Time](profile-summary-card-output/github_dark/4-productive-time.svg)
 
 </div>
 
