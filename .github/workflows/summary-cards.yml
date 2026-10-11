@@ -1,7 +1,56 @@
-## 📊 GitHub Stats
+name: Profile Summary Cards
 
-![Profile Details](https://raw.githubusercontent.com/MayorEmpror/MayorEmpror/main/profile-summary-card-output/github/0-profile-details.svg)
+# Regenerates the SVG metric widgets embedded in README.md and commits them
+# back to main. The cards are the only source of the numbers in the README, so
+# this workflow is what keeps the profile from going stale.
+on:
+  schedule:
+    # Daily at 03:17 UTC (08:17 PKT). Off-the-hour on purpose: GitHub's
+    # scheduler is congested at :00 and drops runs queued there.
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    # The action commits its output back to main. Without this filter that
+    # commit would retrigger the workflow, which commits again, forever.
+    paths-ignore:
+      - "profile-summary-card-output/**"
 
-![Stats](https://raw.githubusercontent.com/MayorEmpror/MayorEmpror/main/profile-summary-card-output/github/0-stats.svg)
+# The action pushes generated SVGs back to the branch it checked out.
+permissions:
+  contents: write
 
-![Languages](https://raw.githubusercontent.com/MayorEmpror/MayorEmpror/main/profile-summary-card-output/github/0-repos-per-language.svg)
+# A scheduled run must not race a manual one on the same branch.
+concurrency:
+  group: profile-summary-cards
+  cancel-in-progress: false
+
+jobs:
+  render-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@v4
+
+      - name: Render summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@v0.12.0
+        env:
+          # Falls back to this workflow's own token so the job is green before
+          # any secret is configured. Add a `SUMMARY_GITHUB_TOKEN` repository
+          # secret (classic PAT with `repo`, or a fine-grained PAT with read
+          # access to every repository) to include private-repo activity in
+          # the numbers — that is also the only way this repo's own private
+          # stats show up.
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          # PKT. Keeps the productive-time card aligned with the hours actually
+          # worked rather than UTC.
+          UTC_OFFSET: 5
+          # One theme only: generating all of them writes dozens of unused
+          # files on every run and makes the README paths ambiguous.
+          THEME: "github_dark"
+          ANIMATION: "fade"
+          DURATION: "1.2"
+          AUTO_PUSH: true
